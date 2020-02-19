@@ -953,7 +953,7 @@
 
 	#header {
 		background-attachment:		scroll,							scroll,					fixed;
-		background-image:			url('./assets/images/top-3200.svg'),		url('./assets/images/overlay.png'),		url('./assets/images/header.jpg');
+		background-image:			url('./assets/images/top-3200.svg'),		url('./assets/images/overlay.png'),		url('./assets/images/computer_programing.jpg');
 		background-position:		bottom center,					top left,				center center;
 		background-repeat:			repeat-x,						repeat,					no-repeat;
 		background-size:			3200px 460px,					auto,					cover;
@@ -1010,7 +1010,7 @@
 		}
 
 		.logo {
-			background: _palette(accent1, bg);
+			// background: _palette(accent1, bg);
 			border-radius: 100%;
 			color: _palette(accent1, fg-bold);
 			cursor: default;
@@ -1021,11 +1021,13 @@
 			margin: 0 0 0.75em 0;
 			text-align: center;
 			width: 2.35em;
+			opacity: 1;
 
 			&.fa-paper-plane-o:before {
 				left: -0.075em;
 				position: relative;
 			}
+
 		}
 
 		h1 {
@@ -1572,4 +1574,9 @@
 				}
 			}
 
+	}
+
+	.technology-photo{
+		height: 5rem;
+		width: 5rem;
 	}
