@@ -508,7 +508,7 @@
 
 			img {
 				display: block;
-				width: 100%;
+				width: auto;
 			}
 		}
 
@@ -1010,7 +1010,7 @@
 		}
 
 		.logo {
-			// background: _palette(accent1, bg);
+			background: _palette(accent1, bg);
 			border-radius: 100%;
 			color: _palette(accent1, fg-bold);
 			cursor: default;
